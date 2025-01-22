@@ -2,8 +2,9 @@
 
 int main() {
     char d;
+    printf("");
     scanf("%c",&d);
-    printf("the entered character is %c",d);
+    printf("%c",d);
 
     return 0;
 }
