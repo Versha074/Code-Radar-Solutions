@@ -2,11 +2,11 @@
 
 int main() {
     int a;
-    printf("enter first number:");
+    printf("");
     scanf("%d",&a);
 
     int b;
-    printf("enter second number:");
+    printf("");
     scanf("%d",&b);
 
     printf(" %d",a + b);
