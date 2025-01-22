@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    float x;
+    float a;
     printf("enter a number:");
-    scanf("%f",&x);
-    printf("%f",x);
+    scanf("%f",&a);
+    printf("%f",a);
 
 
     return 0;
