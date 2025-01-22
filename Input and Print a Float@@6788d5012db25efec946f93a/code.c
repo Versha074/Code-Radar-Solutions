@@ -1,7 +1,7 @@
 #include <stdio.h>
  int main() {
     float x;
-    printf(" ");
+    printf("3.14");
     scanf("%d\n",&x);
 
     return 0;
