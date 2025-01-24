@@ -7,7 +7,7 @@
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    printf("%d",avg);
+    printf("%f",avg);
 
     return 0;
  }
