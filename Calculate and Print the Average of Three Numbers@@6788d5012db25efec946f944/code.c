@@ -1,7 +1,7 @@
 #include <stdio.h>
  int main() {
     int a,b,c;
-    int avg=(a+b+c)/3;
+    int avg=(a+b+c)/2;
     scanf("%d %d %d",&a,&b,&c);
     printf("Average: %.2f",avg);
 
