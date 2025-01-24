@@ -3,10 +3,11 @@
     int a;
     int b;
     int c;
+    int avg=(a+b+c)/3;
     scanf("%d",&a);
     scanf("%d",&b);
     scanf("%d",&c);
-    printf("%d",a,b,c);
+    printf("%d",avg);
 
     return 0;
  }
