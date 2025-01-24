@@ -3,7 +3,7 @@
 int main() {
     int age;
     char name[100];
-    char hobby[100]';
+    char hobby[100];
     scanf("%d",&age);
     sacnf("%s",&name);
     scanf("%s",&hobby);
