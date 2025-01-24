@@ -2,8 +2,8 @@
 
 int main() {
     double a;
-    scanf("%lf",&a);
-    printf("You entered: %lf",lf);
+    scanf("%f",&a);
+    printf("You entered: %f",lf);
 
     return 0;
 }
