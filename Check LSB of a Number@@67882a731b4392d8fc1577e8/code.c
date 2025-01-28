@@ -3,7 +3,6 @@
 int main() {
     int number;
     scanf("%d",&number);
-    printf("%d",number);
     if(number & 1) {
         printf("Set",number);
     } else {
