@@ -5,9 +5,9 @@ int main() {
     scanf("%d",&a);
     scanf("%d",&b);
     if(number &(1<<n)) {
-        printf("1",a);
+        printf("1");
     } else {
-        printf("0",b);
+        printf("0");
     }
 
     return 0;
