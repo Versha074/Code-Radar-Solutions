@@ -6,7 +6,7 @@ int main() {
     if(number %2==0) {
         printf("Even");
     } else {
-        printfy("Odd");
+        printf("Odd");
     }
     return 0;
 }
