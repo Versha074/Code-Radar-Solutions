@@ -4,15 +4,15 @@ int main() {
     int marks;
     scanf("%d",&marks);
     if(ch>=90) {
-        printf("A");
+        printf("A",marks);
     } else if(ch>=80 && ch<=90) {
-        printf("B");
+        printf("B",marks);
     } else if(ch>=70 && ch<=80) {
-        printf("C");
+        printf("C",marks);
     } else if(ch>=60 && ch<=70) {
-        printf("D");
+        printf("D",marks);
     } else {
-        printf("F");
+        printf("F",marks);
     }
     return 0;
 }
