@@ -5,9 +5,9 @@ int main() {
     int b;
     int c;
     scanf("%d %d %d",&a,&b,&c);
-    if(a==b==c) {
+    if(a==b && b==c) {
         printf("Equilateral");
-    } else if(a==b>c) {
+    } else if(a==b|| b==c ||a==c) {
         printf("Isoceles");
     } else {
         printf("Scalene");
