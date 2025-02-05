@@ -4,13 +4,13 @@ int main() {
     char ch;
     scanf("%c",&ch);
     if(ch=='a'|| ch=='e'|| ch=='i'|| ch=='o' || ch=='u'||ch=='A'|| ch=='E' || ch=='I' || ch=='O' || ch=='U'){
-        printf("Vowel",ch);
+        printf("Vowel");
     }else if(isdigit(ch)) {
-        printf("Digit",ch);
+        printf("Digit");
     } else if(isalpha(ch)) {
-        printf("Consonant",ch);
+        printf("Consonant");
     } else {
-        printf("Special Character",ch);
+        printf("Special Character");
     }
 
     return 0;
