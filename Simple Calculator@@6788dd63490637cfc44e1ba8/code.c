@@ -2,7 +2,7 @@
 
 int main() {
     int a,b;
-    scanf("%d",&a,&b);
+    scanf("%d %d",&a,&b);
     char ch=a+b;
     printf("%d",ch);
     char ab=a-b;
