@@ -4,11 +4,13 @@ int main() {
     scanf("%c",&ch);
     if(ch=='R') {
         printf("Stop");
-    } else if(ch=='G') {
+    }else if(ch=='G') {
         printf("Go");
-    }else (ch=='Y') {
-        printf("Slow down");
+    }else if(ch=='Y') {
+        printf("Slow Down");
+    } else {
+        printf("Invalid input");
+    }
 
-    }    
     return 0;
 }
