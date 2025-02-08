@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int t;
-    scanf("%d",&t);
-    if(t==0 & t<0) {
+    float c;
+    scanf("%f",&c);
+    if(c<=0) {
         printf("Freezing");
     }else if{
         printf("Above Freezing");
