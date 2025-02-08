@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char ch;
-    scanf("%d",&ch);
+    scanf("%c",&ch);
     if(ch=='R') {
         printf("Stop");
     } else if(ch=='G') {
