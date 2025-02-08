@@ -2,15 +2,26 @@
 
 int main() {
     int a,b;
-    scanf("%d %d",&a,&b);
-    char ch=a+b;
-    printf("%d",ch);
-    char ab=a-b;
-    printf("%d",ab);
-    char cb=a*b;
-    printf("%d",cb);
-    char nb=a/b;
-    printf("%d",nb);
+    char c;
+    scanf("%d %d %c",&a,&b,&c);
+    switch(c) {
+        case '+';
+        printf("%d",a+b);
+        break;
+
+        case '*';
+        printf("%d",a*b);
+        break;
+
+        case '-';
+        printf("%d",a-b);
+        break;
+
+        case '/';
+        printf("%d",a/b);
+        break;
+    }
 
     return 0;
+
 }
