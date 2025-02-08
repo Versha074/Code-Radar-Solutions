@@ -8,5 +8,7 @@ int main() {
         printf("Go");
     }else (ch=='Y') {
         printf("Slow down");
+
+    }    
     return 0;
 }
