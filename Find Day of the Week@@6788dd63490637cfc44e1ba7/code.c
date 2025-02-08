@@ -4,21 +4,21 @@ int main() {
     int day;
     scanf("%d",&day);
     if(day==1) {
-        printf("Monday");
+        printf("Monday",ch);
     }else if(day==2) {
-        printf("Tuesday");
+        printf("Tuesday",ch);
     }else if(day==3) {
-        printf("Wednesday");
+        printf("Wednesday",ch);
     }else if(day==4) {
-        printf("Thrusday");
+        printf("Thrusday",ch);
     }else if(ch==5) {
-        printf("Friday");
+        printf("Friday",ch);
     }else if(ch==6) {
-        printf("Saturday");
+        printf("Saturday",ch);
     }else if(ch==7) {
-        printf("Sunday");
+        printf("Sunday",ch);
     }else {
-        printf("Invaid");
+        printf("Invaid",ch);
     }
 
     return 0;
