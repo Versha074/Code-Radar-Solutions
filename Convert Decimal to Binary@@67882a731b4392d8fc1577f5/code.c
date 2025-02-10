@@ -10,7 +10,7 @@ int dectobinary(int num){
         int rem=num%2;
         ans+=rem*pow;
         pow*=10;
-        num/=2;
+        num/ =2;
     }
 
     return ans;
