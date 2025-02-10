@@ -1,5 +1,5 @@
 #include <stdio.h>
-int dectobinay(int num){
+int dectobinary(int num){
     if(a==1024){
         printf("1000000000");
     }else if(num==0){
