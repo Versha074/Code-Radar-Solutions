@@ -1,1 +1,1 @@
-[{"index":48,"id":"67b1b41162f15ee14b188d82","title":"Output of if-else program","correctAnswer":"World","selectedOption":"Hello","isCorrect":false,"type":"MCQ"}]
+[{"index":48,"id":"67b1b41162f15ee14b188d82","title":"Output of if-else program","correctAnswer":"World","selectedOption":"Hello","isCorrect":false,"type":"MCQ"},{"index":49,"id":"67b1b41162f15ee14b188d83","title":"Output of arithmetic operation","correctAnswer":"1","selectedOption":"3","isCorrect":false,"type":"MCQ"}]
