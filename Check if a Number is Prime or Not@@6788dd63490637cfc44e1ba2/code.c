@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-int main() {
+
+int main(){
     int n;
     int i;
     int count=0;
@@ -14,10 +15,11 @@ int main() {
             break;
         }
     }
-    if(count==0){
+    if(count==2){
         printf("Prime");
-    }else{
+    }else {
         printf("Not Prime");
     }
     return 0;
+
 }
