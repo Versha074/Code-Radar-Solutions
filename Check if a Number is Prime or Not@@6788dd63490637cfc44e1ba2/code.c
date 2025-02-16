@@ -11,7 +11,7 @@ int main(){
     }
     for(i=2;i<=sqrt(n);i++){
         if(n%i==0){
-            count++;
+            count=1;
             break;
         }
     }
