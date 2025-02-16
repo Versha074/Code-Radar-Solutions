@@ -15,7 +15,7 @@ int main(){
             break;
         }
     }
-    if(count==2){
+    if(count==0){
         printf("Prime");
     }else {
         printf("Not Prime");
